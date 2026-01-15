@@ -122,7 +122,7 @@ app.post("/projects/:projectId/chat", authMiddleware, async (req, res) => {
 });
 
 
-// --- START SERVER ---
+
 app.listen(4000, () => {
   console.log("Server running on http://localhost:4000");
 });

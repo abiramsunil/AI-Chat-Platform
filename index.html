@@ -75,16 +75,16 @@ document.getElementById("toggle-prompt-btn").addEventListener("click", togglePro
 document.getElementById("save-prompt-btn").addEventListener("click", addPrompt);
 document.getElementById("send-chat-btn").addEventListener("click", sendChat);
 
-// Prevent Enter key from submitting forms
+
 document.querySelectorAll("input, textarea").forEach(el => {
   el.addEventListener("keypress", e => {
     if(e.key === "Enter") e.preventDefault();
   });
 });
 
-// ------------------------
+
 // FUNCTIONS
-// ------------------------
+
 function togglePrompt() {
   const section = document.getElementById("prompt-section");
   section.style.display = section.style.display === "none" ? "block" : "none";
@@ -207,7 +207,7 @@ async function addPrompt() {
   }
 }
 
-// Send Chat (mock for demo)
+// Send Chat 
 async function sendChat() {
   if (!currentProjectId) {
     alert("Create or select a project first");
