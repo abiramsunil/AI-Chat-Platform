@@ -47,7 +47,7 @@ cp .env.example .env
 
 
 OPENAI_API_KEY=your_openai_api_key
-JWT_SECRET=your_jwt_secret
+DATABASE_URL=your_db_secret
 
 
 5. Run database migrations:
