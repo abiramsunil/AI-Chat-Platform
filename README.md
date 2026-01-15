@@ -1,3 +1,10 @@
+## Demo Video
+
+Watch the AI chat platform in action:
+
+[![Watch the demo](https://img.youtube.com/vi/Ke8E8vdvlUk/0.jpg)](https://youtu.be/Ke8E8vdvlUk)
+
+
 # AI Chat Platform
 
 A simple full-stack application that allows users to create project-based AI chatbots with customizable system instructions. Built as part of an internship assignment to demonstrate backend API design, authentication, database modeling, and OpenAI API integration.
@@ -87,3 +94,5 @@ You can try the fully functional AI chat platform here:
 
 
 **Backend API:** https://ai-chat-platform-t51m.onrender.com
+
+
