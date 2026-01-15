@@ -77,3 +77,13 @@ http://localhost:4000
 
 * If OpenAI API quota is exceeded, the backend returns a **mock AI reply** to ensure the frontend still functions for demo purposes.
 * Sensitive keys (OpenAI API, JWT secret) are stored in `.env` and **should not be committed**.
+
+
+## Live Demo
+
+You can try the fully functional AI chat platform here:
+
+[Open Live Demo](https://abiramsunil.github.io/AI-Chat-Platform/)
+
+
+**Backend API:** https://ai-chat-platform-t51m.onrender.com
